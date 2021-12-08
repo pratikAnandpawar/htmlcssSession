@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+#hero,#about,#contact,#projects{
+    height: 25%;
+    width: 100%;
+}
+#hero{
+    background-color: yellow;
+}
+#about{
+    background-color: teal;
+}
+#projects{
+    background-color: red;
+}
+#contact{
+    background-color: blue;
+}
+.footer{
+    height: 30%;
+    background-color: purple;
+}
