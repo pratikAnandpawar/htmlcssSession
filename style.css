@@ -11,7 +11,9 @@
  
 }
 #about{
-    background-color: teal;
+    background-color: #02aab0;
+    background-image: linear-gradient(
+135deg,#02aab0,#00cdac);
 }
 #projects{
     height: fit-content;
@@ -46,7 +48,9 @@ img{
 }
 a {
     background-color: white;
-    color: turquoise;
+    color: #02aab0;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
     border:3px solid turquoise;
     box-shadow: 2.5px 5px 0 turquoise;
     padding: 1em 1.5em;
@@ -62,7 +66,86 @@ a:hover {
 a:active {
     
   }
-/* End hero css */
+/* End Hero css */
 
+/* About css */
+.about-container{
+    
+}
+#abt-me-txt{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+}
+#about div div p{
+    width: 800px;
+    min-height:150px;
+    font-size: large;
+    font-family: cursive;
+}
+.pfp{
+    object-fit: cover;
+    height: 340px;
+    width: 340px;
+    border-radius: 50%;
+}
+#about div div p a{
+
+}
+/* End About css */
+
+/* Project section */
+.project-block,.project-block-left{
+    padding-top: 40px;
+    padding-right:10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-container > h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+}
+.project-block > img{
+    margin-right: 0px;
+    width: 800px;
+    border-top: 8px solid;
+    border-right: 8px solid;
+    border-image: linear-gradient(45deg,orange, turquoise ) 1;
+}
+.project-block-left >img{
+    width: 800px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-top: 8px solid;
+    border-right: 8px solid;
+    border-image: linear-gradient(45deg,greenyellow, turquoise ) 1;
+}
+.Project-Title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+}
+
+.cta-btn-group{
+margin-top: 5rem;
+margin-left: 100px;
+display: flex;
+}
+.cta-button{
+margin-right: 20px;
+}
+
+/* END OF PROJECT SECTION */
 
 
