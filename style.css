@@ -1,25 +1,68 @@
 *{
     margin: 0;
     padding: 0;
-    height: 100%;
   }
+  
 #hero,#about,#contact,#projects{
-    height: 25%;
     width: 100%;
 }
 #hero{
     background-color: yellow;
+ 
 }
 #about{
     background-color: teal;
 }
 #projects{
-    background-color: red;
+    height: fit-content;
 }
 #contact{
     background-color: blue;
 }
 .footer{
-    height: 30%;
-    background-color: purple;
+    height: 100px;
 }
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Hero css */
+.container{
+    padding: 200px 0px 50px 170px;
+    background-color: white;   
+    height: 450px;
+}
+.hero-title{
+    font-size: 70px;
+}
+#text-color-name-hero{
+    font-size: 90px;
+    color: turquoise;
+}
+.hero-btn-para{
+    margin-top: 20px;
+}
+a {
+    background-color: white;
+    color: turquoise;
+    border:3px solid turquoise;
+    box-shadow: 2.5px 5px 0 turquoise;
+    padding: 1em 1.5em;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+a:hover {
+    background-color: #7ce5ff;
+    box-shadow: unset;
+  }
+  
+a:active {
+    
+  }
+/* End hero css */
+
+
+
