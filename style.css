@@ -27,11 +27,23 @@
     height: 250px;
     background-color: #333;
 }
-img{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-}
+a {
+    background-color: white;
+    color: #02aab0;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    border:3px solid turquoise;
+    box-shadow: 2.5px 5px 0 turquoise;
+    padding: 1em 1.5em;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+a:hover {
+    background-color: #7ce5ff;
+    box-shadow: unset;
+  }
+
 
 /* Hero css */
 .container{
@@ -49,32 +61,10 @@ img{
 .hero-btn-para{
     margin-top: 20px;
 }
-a {
-    background-color: white;
-    color: #02aab0;
-    font-weight: 700;
-    font-family: Montserrat,sans-serif;
-    border:3px solid turquoise;
-    box-shadow: 2.5px 5px 0 turquoise;
-    padding: 1em 1.5em;
-    margin-top: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-a:hover {
-    background-color: #7ce5ff;
-    box-shadow: unset;
-  }
-  
-a:active {
-    
-  }
+
 /* End Hero css */
 
 /* About css */
-.about-container{
-    
-}
 #abt-me-txt{
     font-size: 50px;
     color: white;
@@ -98,12 +88,8 @@ a:active {
     width: 340px;
     border-radius: 50%;
 }
-#about div div p a{
 
-}
 /* End About css */
-
-
 
 /* Contact us css*/
 
@@ -116,9 +102,7 @@ a:active {
     color: white;
     text-align: center;
     text-shadow: 2px 2px 10px rgb(19, 160, 146);
-
 }
-
 
 form { max-width:420px; margin:50px auto; margin-bottom: 0; padding-bottom: 20px; }
 
