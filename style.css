@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
 #hero,#about,#contact,#projects{
     width: 100%;
 }
 #hero{
     background-color: yellow;
- 
 }
 #about{
     background-color: #02aab0;
@@ -19,10 +20,13 @@
     height: fit-content;
 }
 #contact{
-    background-color: blue;
+    background-image: linear-gradient(
+        135deg,#ffffff,#dafeff);
+
 }
 .footer{
-    height: 100px;
+    height: 200px;
+    background-color: #333;
 }
 img{
     width: 400px;
@@ -100,6 +104,73 @@ a:active {
 }
 /* End About css */
 
+
+
+/* Contact us css*/
+
+#contact{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+#contact h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(19, 160, 146);
+
+}
+
+
+form { max-width:420px; margin:50px auto; margin-bottom: 0; padding-bottom: 20px; }
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid turquoise;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid black; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:turquoise;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.8s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+ background:white;
+ border:black 1px solid ;
+ color: turquoise;
+}
+/* End Contact us CSS */
+
+
 /* Project section */
 .project-block,.project-block-left{
     padding-top: 40px;
@@ -148,4 +219,41 @@ margin-right: 20px;
 
 /* END OF PROJECT SECTION */
 
+/* footer */
+.social-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 30px;
+}
+ul.social-links >li{
+    color: white;
+    margin-left: 40px;
+    list-style-type:none;
+}
 
+.footer hr {
+    padding:0;
+    border: 0;
+    border-top: 2px solid grey;
+    margin: 1rem auto;
+    width: 50%;
+}
+
+.coffee >img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+.coffee > p{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.coffee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end of footer */
